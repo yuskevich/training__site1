@@ -2,16 +2,15 @@
 
 <html>
 
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Modus Versus</title>
-    <link href="style_modus.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="js/jquery-3.js"></script>
-    <script type="text/javascript" src="js/javascripts1.js"></script>
+    <script src="js/jquery-3.js"></script>
+    <script src="js/javascripts.js"></script>
 
 </head>
 
@@ -56,7 +55,7 @@
 
   <div class="wrap project-wrap">
     <div class="container container-project">
-      <div class="project-block-container">
+      <div class="project-block-container  js-slider">
         <div class="project-block">
           <h1>Project #1</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -71,8 +70,8 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
-        <span class="project-block-button project-block-button-prev"><i class="fa fa-angle-double-left"></i></span>
-        <span class="project-block-button project-block-button-next"><i class="fa fa-angle-double-right"></i></span>
+        <span class="project-block-button project-block-button-prev js-slider-button-prev"><i class="fa fa-angle-double-left"></i></span>
+        <span class="project-block-button project-block-button-next js-slider-button-next"><i class="fa fa-angle-double-right"></i></span>
     </div>
     <ul class="project-block-status-list">
       <li class="active"></li>
@@ -85,7 +84,7 @@
     <div class="container container-center-page">
       <div class="blog-page-wrap">
         <div class="blog-page-container">
-          <div class="blog-page">
+          <div class="blog-page  js-slider">
             <div class="blog-page-block">
               <h2>Blog #1</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -100,8 +99,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
-          <span class="blog-page-block-button blog-page-block-button-prev"><i class="fa fa-angle-double-left"></i></span>
-          <span class="blog-page-block-button blog-page-block-button-next"><i class="fa fa-angle-double-right"></i></span>
+          <span class="blog-page-block-button blog-page-block-button-prev js-slider-button-prev"><i class="fa fa-angle-double-left"></i></span>
+          <span class="blog-page-block-button blog-page-block-button-next js-slider-button-next"><i class="fa fa-angle-double-right"></i></span>
         </div>
         <ul class="blog-page-block-status-list">
           <li class="active"></li>
@@ -114,7 +113,7 @@
         <div class="sidebar-container">
           <div class="sidebar-slide-wrap">
             <div class="sidebar-slide-container">
-              <div class="sidebar-slide">
+              <div class="sidebar-slide js-slider">
                 <div class="sidebar-slide-block">
                   <h3>Side #1</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Labore et dolore magna aliqua.</p>
@@ -128,8 +127,8 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
               </div>
-              <span class="sidebar-slide-block-button sidebar-slide-block-button-prev"><i class="fa fa-angle-left"></i></span>
-              <span class="sidebar-slide-block-button sidebar-slide-block-button-next"><i class="fa fa-angle-right"></i></span>
+              <span class="sidebar-slide-block-button sidebar-slide-block-button-prev js-slider-button-prev"><i class="fa fa-angle-left"></i></span>
+              <span class="sidebar-slide-block-button sidebar-slide-block-button-next js-slider-button-next"><i class="fa fa-angle-right"></i></span>
             </div>
             <ul class="sidebar-slide-block-status-list">
               <li class="active"></li>
@@ -192,23 +191,31 @@
     <div class="container container-bottom-page">
       <div class="bottom-page-left">
         <div class="accordion-container">
-          <div class="accordion-block">
-            <h5>ACCORDION TITLE</h5>
-            <i class="fa fa-plus-circle"></i>
-            <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-          </div>
-          <div class="accordion-block">
-            <h5>ACCORDION TITLE</h5>
-            <i class="fa fa-plus-circle"></i>
-            <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-          </div>
-          <div class="accordion-block">
-            <h5>ACCORDION TITLE</h5>
-            <i class="fa fa-plus-circle"></i>
-            <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-          </div>
+          <dl class="accordion-block js-accordion">
+            <dt>
+              <span>ACCORDION TITLE</span>
+              <i class="fa fa-plus-circle"></i>
+            </dt>
+            <dd>
+              <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+            </dd>
+            <dt>
+              <span>ACCORDION TITLE</span>
+              <i class="fa fa-plus-circle"></i>
+            </dt>
+            <dd>
+              <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+            </dd>
+            <dt>
+              <span>ACCORDION TITLE</span>
+              <i class="fa fa-plus-circle"></i>
+            </dt>
+            <dd>
+              <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+            </dd>
+          </dl>           
         </div>
-        <div class="tab-container">
+        <div class="tab-container js-tabs">
           <ul class="tab-caption">
             <li class="active">TAB TITLE</li>
             <li>TAB TITLE</li>
@@ -231,23 +238,31 @@
       </div>
       <div class="bottom-page-right">
         <div class="accordion-container">
-          <div class="accordion-block">
-            <h5>ACCORDION TITLE</h5>
-            <i class="fa fa-plus-circle"></i>
-            <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="accordion-block">
-            <h5>ACCORDION TITLE</h5>
-            <i class="fa fa-plus-circle"></i>
-            <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="accordion-block">
-            <h5>ACCORDION TITLE</h5>
-            <i class="fa fa-plus-circle"></i>
-            <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor sit amet.</p>
-          </div>
+          <dl class="accordion-block js-accordion">
+            <dt>
+              <span>ACCORDION TITLE</span>
+              <i class="fa fa-plus-circle"></i>
+            </dt>
+            <dd>
+              <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor amet.</p>
+            </dd>
+            <dt>
+              <span>ACCORDION TITLE</span>
+              <i class="fa fa-plus-circle"></i>
+            </dt>
+            <dd>
+              <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor amet.</p>
+            </dd>
+            <dt>
+              <span>ACCORDION TITLE</span>
+              <i class="fa fa-plus-circle"></i>
+            </dt>
+            <dd>
+              <p>Vivamus eget ante bi. Quisque id tellus qorem ipsum dolor amet.</p>
+            </dd>
+          </dl>         
         </div>
-        <div class="tab-container">
+        <div class="tab-container js-tabs">
           <ul class="tab-caption">
             <li class="active">TAB TITLE</li>
             <li>TAB TITLE</li>

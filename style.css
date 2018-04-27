@@ -5,7 +5,7 @@
 }
 
 
-body, html, div, header, ol, ul, li, button, form, input, textarea, p, i, nav
+body, html, div, header, ol, ul, li, button, form, input, textarea, p, i, nav, dd, dt
 {
     margin: 0;
     padding: 0;
@@ -597,7 +597,14 @@ header .logo
 }
 
 /* accordion */
-.accordion-block h5
+
+.accordion-block > dt
+{
+    position: relative;   
+    padding: 10px 0;
+}
+
+.accordion-block > dt > span
 {
     font-size: 16px;
     font-weight: bold;
@@ -605,7 +612,7 @@ header .logo
     margin: 20px 0;
 }
 
-.accordion-block i
+.accordion-block > dt > i
 {
     position: absolute;
     top: 20px;
@@ -615,21 +622,19 @@ header .logo
     cursor: pointer;
 }
 
-.accordion-block p
+.accordion-block > dd > p
 {
     display: none;
     color: #777777;
     font-size: 13px;
     margin-bottom: 30px;
-    margin-right: 40px;
+    margin-right: 40px; 
 }
 
-.accordion-block
+.accordion-block > dd
 {
     border-bottom: 4px solid #e5e6e6;
-    position: relative;
 }
-
 
 /*tab*/
 
