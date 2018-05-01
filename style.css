@@ -14,6 +14,13 @@ body, html, div, header, ol, ul, li, button, form, input, textarea, p, i, nav, d
     font-family: OpenSans;
 }
 
+div.div { 
+color: red; 
+border: 5px solid currentColor; 
+box-shadow: 0 0 15px currentColor; 
+color: orange; 
+}
+
 a
 {
     text-decoration: none;
@@ -60,14 +67,14 @@ header .logo
     padding-left: 5px;
 }
 
-.logo a
+.logo
 {
     font-size: 30px;   
     font-weight: bold;
     color: white;
 }
 
-.logo a::after
+.logo::after
 {
     content: "versus";
     font-size: 25px;
@@ -117,10 +124,11 @@ header .logo
     border-bottom: 3px solid #528b86;
 }
 
-.header-menu > a
+.header-menu > div
 {
     padding: 8px 10px;
-    border-radius: 8px;   
+    border-radius: 8px;
+    color: white;   
 }
 
 .search-button
